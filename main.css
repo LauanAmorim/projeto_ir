@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  background: rgb(184, 184, 184);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.data {
+  background: rgb(184, 184, 184);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.column-salario,
+.column-imposto,
+.column-nome {
+  height: 200px;
+}
+
+label {
+  font-size: 1.1rem;
+  color: rgb(48, 48, 48);
+}
+
+input {
+  height: 35px;
+  padding: 5px;
+  margin: 5px;
+  width: 320px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.137);
+  transition: 230ms;
+}
+
+input:focus {
+  outline: #4b3737 solid 1px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  height: 35px;
+  width: 150px;
+  border-radius: 6px;
+  margin: 7px;
+  box-shadow: 2px 0px 12px rgba(0, 0, 0, 0.137);
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #444444;
+  transition: ease-out 420ms;
+}
+
+#enviar:hover {
+  box-shadow: inset 150px 0 0 0 #444444;
+  color: white;
+}
+
+#limpar:hover {
+  box-shadow: inset -150px 0 0 0 #444444;
+  color: white;
+}
+
+h1 {
+  background-color: rgb(165, 165, 165);
+  color: rgb(53, 53, 53);
+  padding: 5px;
+}
+
+.pNome,
+.pSalario,
+.pImposto {
+  border-bottom: 1px solid rgb(146, 146, 146);
+  padding: 5px 0px;
+}
+
+img {
+  height: 150px;
+}

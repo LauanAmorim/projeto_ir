@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="shortcut icon" href="images/SFBG.png" type="image/x-icon" />
+    <title>Projeto IR</title>
+  </head>
+  <body>
+    <section>
+      <div class="form">
+        <img src="./images/SFBG.png" alt="logo Sonegador de Impostos">
+        <form action="#">
+          <label for="nome">Insira seu nome</label>
+          <input
+            type="text"
+            name="nome"
+            id="input-nome"
+            placeholder="e.g: José Carlos"
+            autocomplete="off"
+          />
+          <label for="salario">Insira sua renda mensal</label>
+          <input
+            type="number"
+            name="salario"
+            id="input-salario"
+            placeholder="e.g: R$1212.00"
+            autocomplete="off"
+          />
+          <button id="enviar">Enviar</button>
+          <button id="limpar">Limpar</button>
+        </form>
+      </div>
+
+      <div class="data">
+        <div class="column-nome">
+          <h1>Nome</h1>
+        </div>
+        <div class="column-salario">
+          <h1>Salário</h1>
+        </div>
+
+        <div class="column-imposto">
+          <h1>Imposto</h1>
+        </div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
